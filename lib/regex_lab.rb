@@ -1,5 +1,6 @@
 def starts_with_a_vowel?(word)
   if(word.scan(/^[aeiou]/))
+    binding.pry
     true
   end
   false
