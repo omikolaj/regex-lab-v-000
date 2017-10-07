@@ -12,7 +12,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   binding.pry
-  text.match(//)
+  text.match(/\w+[A-Z\,]/)
 end
 
 def valid_phone_number?(phone)
